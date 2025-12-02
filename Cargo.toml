@@ -1,0 +1,25 @@
+[package]
+name = "various-chain-sign"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+secp256k1 = { version = "0.30.0", default-features = false, features = ["hashes", "alloc"] }
+alloy = { version = "1.0.36", features = [ 
+    "eips",
+    "full",
+    "json-rpc",
+    "node-bindings",
+    "rpc-client",
+    "rpc-types-debug",
+    "rpc-types-trace",
+    "signer-aws",
+    "signer-gcp",
+    "signer-keystore",
+    "signer-ledger",
+    "signer-mnemonic",
+    "signer-trezor",
+    "signer-yubihsm", 
+] }
+tokio = { version = "1.28.1", features = ["full"] }
+hex = "0.4.3"
