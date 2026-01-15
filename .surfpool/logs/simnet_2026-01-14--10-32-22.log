@@ -1,0 +1,13 @@
+[2026-01-14--10-32-22 INFO actix_server::builder] starting 5 workers
+[2026-01-14--10-32-22 INFO actix_server::server] Tokio runtime found; starting in existing Tokio runtime
+[2026-01-14--10-32-22 INFO actix_server::server] starting service: "actix-web-service-127.0.0.1:18488", workers: 5, listening on: 127.0.0.1:18488
+[2026-01-14--10-32-22 INFO actix_web::middleware::logger] 127.0.0.1 "GET /config HTTP/1.1" 200 167 "http://127.0.0.1:18488/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" 0.015044
+[2026-01-14--10-32-23 INFO parity_ws] Listening for new connections on 127.0.0.1:8900.
+[2026-01-14--10-32-26 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:61459.
+[2026-01-14--10-32-26 INFO actix_web::middleware::logger] 127.0.0.1 "GET /config HTTP/1.1" 200 167 "http://127.0.0.1:18488/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" 0.000328
+[2026-01-14--11-31-51 INFO actix_web::middleware::logger] 127.0.0.1 "GET /config HTTP/1.1" 200 167 "http://127.0.0.1:18488/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" 0.001932
+[2026-01-14--11-31-52 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:64351.
+[2026-01-14--11-31-52 INFO actix_web::middleware::logger] 127.0.0.1 "GET /config HTTP/1.1" 200 167 "http://127.0.0.1:18488/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" 0.000331
+[2026-01-14--12-06-22 INFO actix_web::middleware::logger] 127.0.0.1 "GET /config HTTP/1.1" 200 167 "http://127.0.0.1:18488/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" 0.000894
+[2026-01-14--12-06-23 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:64980.
+[2026-01-14--12-06-23 INFO actix_web::middleware::logger] 127.0.0.1 "GET /config HTTP/1.1" 200 167 "http://127.0.0.1:18488/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" 0.000234

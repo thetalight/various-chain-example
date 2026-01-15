@@ -1,7 +1,7 @@
 [workspace]
 members = [ 
   "btc",
-  "eth",
+  "eth", "sol",
 ]
 resolver = "2"
 
@@ -12,3 +12,4 @@ hex = "0.4.3"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 sha2 = { version = "0.10", default-features = false }
+bincode = "1.3"
